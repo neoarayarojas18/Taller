@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="login.component.css">
+
+<body>
+    <div class="container sm-2 myContainerLogin" style=" justify-content: center;">
+        <div class="row vh-100 justify-content-center align-items-center">
+            <div class="col-auto bg-light p-5 myConteinerForm" style="justify-content: center">
+                <form class="myformLogin" 
+                autocomplete="off" 
+                [formGroup]="miFormulario"
+                (ngSubmit)="login()">
+                    <div class="row text-center">
+                        <h1 class="myTitulo" style="color:#1866B3"><i class="icon ion-md-clipboard"></i>
+                            <strong> DeSaUCM </strong></h1>
+                            <br>
+                        <h5 class="mySubtitulo" style="color:#000000">Inicia sesión para acceder</h5>
+                    </div>
+    
+                    <div class="row myrow">
+                        <div class="col">
+                            <div class="fontuser">
+                                
+                                <input type="email" class="form-control" placeholder="Email" formControlName="email" id="id_email" required> 
+                                <i class="icon ion-md-mail myiconLogin"></i>
+
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col">
+                            <div class="fontpassword">
+                                <input type="password" class="form-control" placeholder="Contraseña" formControlName="contrasena" id="id_password" required> 
+                                <i class="icon ion-md-unlock myiconLogin"></i>
+
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col">
+                            <div class="text-start" style="padding-top: 20px; left:20px;">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label style="color: #000000" class="form-check-label" for="flexCheckChecked">Recuerdame
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row text-end 2px">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary btnMy" 
+                            [disabled]="miFormulario.invalid">
+                                Acceder</button>
+                        </div>
+    
+                    </div>
+                    <br>
+                    
+                    
+                    <div class="form-group-row text-align:center left:20px">
+                        <div class="col text-align:center">
+                            <div class="center-div">
+                                <img src="assets/images/logo_ucm_marca.png"class="rounded float-start">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-end 2px">
+                        <div class="col">
+                            <button  class="btn btn-primary btnMy" routerLink="/auth/addUser">Registro</button>
+                        </div>
+                    </div>
+                </form>
+    
+            </div>
+    
+        </div>
+    </div>
+</body>

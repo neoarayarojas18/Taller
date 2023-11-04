@@ -1,0 +1,541 @@
+/*
+    ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.img-side{
+    float: left;
+    width: 90px;
+    height: 80px;
+    top: 90px;
+    margin: auto;
+    overflow: auto;
+
+}
+
+.content{
+    width: 60%;
+}
+
+img{
+    float: left;
+    top: 90px;
+    margin: auto;
+    overflow: auto;
+
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    vertical-align: center;
+    background-color:#ECF3F7
+
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.header{
+    background-color: #ECF3F7;
+}
+
+#sidebar {
+    min-width: 120px;
+    max-width: 120px;
+    padding: 2px;
+    top: 20px;
+    background: #253e85;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #253e85;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background:#065286;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    height: 79px;
+    padding: 10px;
+    padding-left:0px ;
+    background:#253e85;
+    padding-right: 2px;
+    top: 20%;
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+    padding-left: 19px;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #065286;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #065286;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #065286;
+}
+
+@media (max-width: 768px) { /*para pantallas mas pequeñas*/
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+.container-flex{
+    padding-top: 20%;
+    padding-left: 20px;
+    white-space: break-word;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.box {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+.d-flex{
+    width: 700px;
+}
+
+.wrapper {
+    margin: 0;
+    margin-bottom: 40px;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    color: white;
+    background-color:  rgb(0, 23, 64);
+    height: 200px;
+    width: 100%;
+
+}
+
+.btnMy{
+    cursor: pointer;
+    font-size: 16px;
+    padding-right: 10px;
+    margin-left:10px ;
+    background-color: #2E86C1
+
+}
+
+.btnMy:hover{
+    background-color: #0a0911;
+    transform: translateY(-1px);
+}
+body{
+    background-color:  rgb(0, 23, 64);
+    }
+.footer i{
+    height: 20px;
+    width: 20px;
+}
+
+.container-fluid-footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.contenedor-credenciales{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: -136px;
+    margin-left:230px ;
+}
+
+.i-social{
+    width: 10px;
+    height: 100px;
+}
+
+.list-contacts{
+    text-align: left;
+    width: 503px;
+    height: 10px;
+    line-height: 1.4;
+    padding-left: 265px;
+    font-size: 11px;
+}
+.title-contacts{
+    margin-top: 22px;
+    line-height: 0.1;
+}
+.container-logos{
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagen-ucm{
+    height: 194px; 
+    width:229px; 
+    text-align: center; 
+    padding: 18px; 
+    float: inline-start;
+    margin-top: 20px;
+}
+
+.contenedor-redes{
+    text-align: end;
+    padding-left: 200px;
+    margin-top: -38px;
+    padding-right:100px ;
+}
+
+.contenedor-redes i{
+    width: 5%;
+    height: 5%;
+    padding: 21px;
+
+}
+
+.admin-image{
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-top: -15px;
+    margin-left: -13px;
+}
+
+
+.hidden-xs{
+    padding-left: 7px;
+    font-weight:10% ;
+
+}
+
+.MydropdownItem{
+    background-color:#26a0da;
+}
+
+.container-fluid-dropdown{
+    width: 100px;
+    height: 100px;
+}
+
+.admin-image-dropdown{
+    width: 60px;
+    height: 60px;
+    margin-left: 45px;
+
+}
+.texto-admin-dropdown{
+    font-size: 15px;
+    color: #0a0911;
+    text-align: center;
+}
+.btnMyDropdownPerfil{
+    margin-top: 17px;
+    margin-left:20px;
+}
+.btnMyDropdownSalir{
+    margin-top: -64px;
+    margin-left: 199px;
+}
+.MybottonDropdown{
+    background-color: #26a0da;
+    margin-left: 40px;
+    color: white;
+
+}
+.MybottonDropdown::after {
+    content: none;
+}
+
+.image-dropdown-admin2{
+    width: 40px;
+    height: 40px;
+    margin-top: -7px;
+}
+
+.mybarraBusqueda{
+    margin-left: 10px;
+}
+
+.mySpan{
+    height: 20px;
+    width: 20px;
+    margin-right: 210px;
+}
+
+.mybuttonTable{
+    margin-left: 0px;
+    margin-top: 3px;
+}
+.myDropdownTable{
+    margin-top: 20px;
+    width:10px;
+    height:10px;
+    background-color:#26a0da ;
+}
+
+.inputTable{
+    margin-left: 430px;
+    margin-top: -21px;
+}
+.mytableUsers{
+    margin-top: -4px;
+    margin-left: 51px;
+}
+.dropdownBottonTable{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0a0911;
+    height: 40px;
+    width: 110px;
+    font-weight: 400;
+
+}
+
+.toolImage{
+    width: 40px;
+    height: 40px;
+    margin-top: -11px;
+    margin-left: 2px; /*por lo general son los pixeles por defecto*/
+}
+
+.signupFrm{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    font-family: "lato", sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 800px;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+.form {
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px 50px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #253e85;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+/* Style the inputs */
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DADCE0;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+
+  /* Hide the placeholder texts (a) */
+
+.input::placeholder {
+    color: transparent;
+}
+
+/* Styling text labels */
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.submitBtnGuardar{
+    display: block;
+    margin-left: auto;
+    padding: 5px 11px;
+    border: none;
+    background-color: #065286;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -33px;
+    margin-left: 204px;
+} 
+.submitBtnGuardar:hover {
+    background-color: #26a0da;
+    transform: translateY(-2px);
+}
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #26a0da;
+}
+
+.submitBtnSalir{
+    display: block;
+    margin-left: auto;
+    padding: 4px 30px;
+    border: none;
+    background-color:red;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 4px;
+} 
+.submitBtnSalir:hover {
+    background-color: #26a0da;
+    transform: translateY(-2px);
+}
+.input:focus {
+    border: 2px solid #26a0da;
+}
+
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.inputContainer2{
+    position: center;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 17px;
+}
+
+.mydropdownUser{
+    position: center;
+    margin-left: 93px;
+    padding: 4px 30px;
+}
+
+.ul-admin{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.myCarousel{
+    width: 800px;
+    margin-left: 25%;
+}
